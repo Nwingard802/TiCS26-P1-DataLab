@@ -7,6 +7,6 @@ map = data["Map"]
 rank = data["Rank"]
 KD = data["KDRatio"]
 
-plt.scatter(map, KD)
+graph = plt.scatter(map, KD, c="darkred")
 
 plt.show()
