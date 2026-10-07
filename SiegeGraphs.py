@@ -8,7 +8,7 @@ rank = data["Rank"]
 KD = data["KDRatio"]
 
 plt.figure(facecolor="#CCFFF6")
-graph = plt.scatter(map, KD, c="darkred")
+graph = plt.scatter(KD, map, c="darkred")
 plt.xlabel("Maps")
 plt.ylabel("K/D Ratio")
 ax = plt.gca()
